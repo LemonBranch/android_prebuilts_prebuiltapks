@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2020 Diab Neiroukh
+     SPDX-License-Identifer: GPL-3.0-or-later
+     This file contains privapp-permission whitelists to be granted by default.
+     Granting these permissions could prevent issues on some ROMs or on non-clean installations.
+-->
+
+    <permissions>
+        <privapp-permissions package="com.google.android.gsf">
+            <permission name="com.google.android.c2dm.permission.RECEIVE" />
+            <permission name="com.google.android.c2dm.permission.SEND" />
+        </privapp-permissions>
+    </permissions>
