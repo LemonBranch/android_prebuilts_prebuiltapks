@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2020 Diab Neiroukh
+     SPDX-License-Identifer: GPL-3.0-or-later
+     This file contains privapp-permission whitelists to be granted by default.
+     Granting these permissions could prevent issues on some ROMs or on non-clean installations.
+-->
+
+    <permissions>
+        <privapp-permissions package="com.lsdroid.cerberus">
+            <permission name="android.permission.READ_SMS" />
+            <permission name="android.permission.WRITE_SMS" />
+            <permission name="android.permission.SEND_SMS" />
+            <permission name="android.permission.RECEIVE_SMS" />
+            <permission name="android.permission.READ_CALL_LOG" />
+            <permission name="android.permission.PROCESS_OUTGOING_CALLS" />
+            <permission name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+            <permission name="com.google.android.c2dm.permission.RECEIVE" />
+            <permission name="android.permission.ACCESS_COARSE_LOCATION" />
+            <permission name="android.permission.ACCESS_FINE_LOCATION" />
+            <permission name="android.permission.WRITE_SETTINGS" />
+            <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+            <permission name="android.permission.RECORD_AUDIO" />
+            <permission name="android.permission.READ_PHONE_STATE" />
+            <permission name="android.permission.MODIFY_PHONE_STATE" />
+            <permission name="android.permission.ACCESS_NETWORK_STATE" />
+            <permission name="android.permission.CHANGE_NETWORK_STATE" />
+            <permission name="android.permission.READ_CONTACTS" />
+            <permission name="android.permission.ACCESS_WIFI_STATE" />
+            <permission name="android.permission.CHANGE_WIFI_STATE" />
+            <permission name="android.permission.INTERNET" />
+            <permission name="android.permission.WAKE_LOCK" />
+            <permission name="android.permission.RECEIVE_BOOT_COMPLETED" />
+            <permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
+            <permission name="com.android.vending.BILLING" />
+            <permission name="android.permission.CAMERA" />
+            <permission name="com.latedroid.juicedefender.permission.CONTROL_JUICEDEFENDER" />
+            <permission name="com.latedroid.juicedefender.permission.TOGGLE_MOBILE_DATA" />
+            <permission name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS" />
+            <permission name="android.permission.CALL_PHONE" />
+            <permission name="android.permission.MODIFY_AUDIO_SETTINGS" />
+            <permission name="android.permission.SYSTEM_ALERT_WINDOW" />
+            <permission name="android.permission.VIBRATE" />
+            <permission name="android.permission.GET_ACCOUNTS" />
+            <permission name="android.permission.MANAGE_ACCOUNTS" />
+            <permission name="android.permission.UPDATE_APP_OPS_STATS" />
+            <permission name="android.permission.STATUS_BAR" />
+            <permission name="android.permission.BLUETOOTH" />
+            <permission name="android.permission.BLUETOOTH_ADMIN" />
+            <permission name="android.permission.NFC" />
+            <permission name="android.permission.INTERACT_ACROSS_USERS" />
+            <permission name="android.permission.MANAGE_USERS" />
+            <permission name="android.permission.MANAGE_DEVICE_ADMINS" />
+            <permission name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+            <permission name="android.permission.USE_FINGERPRINT" />
+            <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE" />
+            <permission name="android.permission.OVERRIDE_WIFI_CONFIG" />
+            <permission name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+            <permission name="android.permission.TETHER_PRIVILEGED" />
+            <permission name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+            <permission name="android.permission.USE_FULL_SCREEN_INTENT" />
+            <permission name="android.permission.USE_BIOMETRIC" />
+            <permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+        </privapp-permissions>
+    </permissions>
